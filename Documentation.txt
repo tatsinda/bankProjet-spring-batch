@@ -1,0 +1,6 @@
+*on cree un fichier csv contenant des donnees
+*------- la partie metier l'app donc la classe BankTransaction,BankTransactionRepository
+*on cree la classe SpringBatchConfig permettant de configurer un job
+*------- la classe BankTransactionProcessor puis BankTransactionWriter pour les configuration de ItemProcessor et ItemWriter
+*creation d'uune api rest dans la class JavRestController pour le demarrage du Job
+*on cree un autre processor appeler BankTransactionItemAnalyticsProcessor
